@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* bg-color: 33f2616 */
+/* #442918 */
+
+body{
+    background: #9ffce0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    margin-left: -50px;
+}
+
+.coffee-mug{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #3f2616;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #442918, 
+                0 0 0 25px #3c2415, 
+                0 0 0 44px #fe9407,
+                0 0 0 65px #feaa3a,
+                0 120px 0 -20px #442918,
+                100px 70px 0 -25px #442918,
+                80px 140px 0 -10px #442918,
+                20px 250px 0 -65px #442918;
+}
+
+.coffee-mug::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 75px;
+    background-color: #f79c25;
+    top: -85px;
+    right: -75px;
+    transform: rotate(45deg);
+}
